@@ -1,0 +1,99 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+}
+
+.container {
+  width: 100%;
+  padding-inline: 50px;
+}
+
+body {
+  position: relative;
+  color: var(--dark);
+}
+
+.txt-small {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.txt-normal {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.txt-lg {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.cursor-hover {
+  cursor: pointer;
+}
+
+.cursor-hover:hover {
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1160px) {
+  .container {
+    padding-inline: 30px;
+  }
+
+  .txt-small {
+    font-size: 13px;
+  }
+
+  .txt-normal {
+    font-size: 15px;
+  }
+
+  .txt-lg {
+    font-size: 19px;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+}

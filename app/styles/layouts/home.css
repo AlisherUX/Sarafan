@@ -1,0 +1,163 @@
+.main {
+  padding-top: 105px;
+}
+
+.banner {
+  margin-top: 20px;
+}
+
+.banner-button {
+  gap: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--dark);
+  border-radius: 8px;
+  padding-inline-start: 2px;
+  cursor: pointer;
+}
+
+.banner-button:hover {
+  background-color: var(--cloud);
+}
+
+.banner-img {
+  width: 890px;
+  object-fit: cover;
+}
+
+.banner-info {
+  max-width: 560px;
+  gap: 12px;
+}
+
+.red-ball {
+  min-width: 6px;
+  max-width: 6px;
+  height: 6px;
+  background-color: var(--wood);
+  border-radius: 50%;
+}
+
+.advantages {
+  gap: 12px;
+}
+
+.unique-advantage,
+.breadcrumb,
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.breadcrumb {
+  gap: 8px;
+  margin-top: 30px;
+  color: var(--asphalt);
+}
+
+.breadcrumb > button {
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--asphalt);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.breadcrumb > button:hover {
+  text-decoration: underline;
+}
+
+.active-breadcrumb {
+  color: var(--dark) !important;
+}
+
+.swiper-section {
+  gap: 24px;
+  margin-block: 80px;
+}
+
+.swiper-content {
+  display: flex;
+  gap: 30px;
+}
+
+.swiper-container {
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide {
+  min-width: 100%;
+}
+
+.swiper-slide img {
+  width: 30%;
+  height: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.swiper-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  margin: auto;
+}
+
+.swiper-pagination {
+  gap: 13px;
+}
+
+.swiper-pagination-bullet {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: var(--asphalt);
+}
+
+.swiper-pagination-bullet.active {
+  width: 9px;
+  height: 9px;
+  background-color: var(--grey);
+}
+
+.gallery-section {
+  gap: 60px;
+}
+
+.gallery-info {
+  width: 190px;
+  gap: 40px;
+}
+
+.gallery-txt {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--asphalt);
+}
+
+.info-sec {
+  gap: 18px;
+}
+
+.gallery-num {
+  font-size: 36px;
+  font-weight: 700;
+}

@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  margin-top: 90px;
+  padding-block: 40px;
+  box-shadow: 0px -4px 22px -4px rgba(219, 219, 219, 0.62);
+}
+
+.footer-col,
+.location-info {
+  gap: 32px;
+}
+
+.location-info {
+  max-width: 162px;
+  width: 100%;
+}
+
+.social-pages {
+  gap: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}

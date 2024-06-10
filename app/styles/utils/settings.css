@@ -1,0 +1,14 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #151516;
+  --grey: #6b7073;
+  --asphalt: #c4c4c4;
+  --cloud: #e4e4e4;
+  --wood: #cd3b31;
+}
+
+::placeholder {
+  color: var(--asphalt);
+  font-size: 12px;
+}

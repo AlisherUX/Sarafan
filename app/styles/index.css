@@ -1,0 +1,12 @@
+/* UTILS */
+@import url('./utils/font.css');
+@import url('./utils/settings.css');
+@import url('./utils/global.css');
+
+/* COMPONENTS */
+@import url('./layouts/header.css');
+@import url('./layouts/footer.css');
+@import url('./layouts/burgermenu.css');
+
+/* HOME PAGE */
+@import url('./layouts/home.css');
